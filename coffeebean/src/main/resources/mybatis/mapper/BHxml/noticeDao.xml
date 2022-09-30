@@ -31,19 +31,10 @@
 	</select>
 	
 	
-		<!--행 수정 -->
-	<update id="noticeUpdateAction">
-		update notice SET 
-		N_TITLE=#{param1},
-		N_CONTENT=#{param2},
-		N_WRITER=#{param3},
-		WHERE N_IDX=#{param4}
-	</update>
-	
 	<!-- 행 삭제 -->
 	<delete id="noticeDeleteAction">
 		delete FROM notice
-		WHERE N_IDX=#{ param1 }
+		WHERE N_IDX=#{param1}
 	</delete>
 	
 </mapper>    

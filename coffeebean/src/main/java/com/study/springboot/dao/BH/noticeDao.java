@@ -16,7 +16,7 @@ public interface noticeDao {
 	public int noticeWriteAction(String N_TITLE , String N_CONTENT , String N_WRITE );
 	
 	//공지사항 수정
-	public int noticeUpdateAction(String N_TITLE , String N_CONTENT , String N_WRITE, int N_IDX);
+	public int noticeUpdateAction(String N_TITLE , String N_CONTENT , String N_WRITER, int N_IDX);
 	
 	//공지사항 단건조회
 	public noticeDto noticeModifyView(int N_IDX);

@@ -57,35 +57,21 @@
 
 
     <!-- 사이드메뉴 -->
-    <div id="adminMain">
-      <div class="adminTitle">
-        <div class="adminTitleS">
-          <ul>
-            <li>
-              <a href="/admin/admin_notice">공지사항</a>
-            </li>
-            <li>
-              <a href="/admin/admin_member">회원관리</a>
-            </li>
-            <li>
-              <a href="/admin/admin_puroductManagement">상품관리</a>
-            </li>
-            <li>
-              <a href="/admin/admin_one2one">1:1문의</a>
-            </li>
-            <li>
-              <a href="/admin/admin_review">리뷰관리</a>
-            </li>
-            <li>
-              <a href="/admin/admin_orderManagement">주문관리</a>
-            </li>
-            <li>
-              <a href="/admin/admin_productAsk">상품문의</a>
-            </li>
-          </ul>
-        </div><br>
-      </div>
-      <!-- 메인 -->
+		<div class="adminTitle">
+			<div class="adminTitleS">
+				<ul>
+					<li><a href="/NAV_admin_notice">공지사항</a></li>
+					<li><a href="/NAV_admin_member">회원관리</a></li>
+					<li><a href="/NAV_admin_puroductManagement">상품관리</a></li>
+					<li><a href="/NAV_admin_one2one">1:1문의</a></li>
+					<li><a href="/NAV_admin_review">리뷰관리</a></li>
+					<li><a href="/NAV_admin_orderManagement">주문관리</a></li>
+					<li><a href="/NAV_admin_productAsk">상품문의</a></li>
+				</ul>
+			</div>
+			<br>
+		</div>
+		<!-- 메인 -->
       <div id="adminMain">
         <div id="adminSection">
           <div class="adminDiv">
@@ -106,6 +92,8 @@
                   onclick='location.href="#"' class="btn btn-warning">수정하기</button>
                 <button style="background-color: #ffffff; border-color: #000000;" type="button"
                   onclick='location.href="admin_notice"' class="btn btn-warning">목록가기</button>
+                <button style="background-color: #ffffff; border-color: #000000;" type="button"
+                  onclick='location.href="noticeDeleteAction?N_IDX=${dto.n_IDX }"' class="btn btn-warning">삭제하기</button>  
                 
               </form>
             </div>
