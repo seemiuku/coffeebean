@@ -126,7 +126,7 @@ button {
 							<th>리뷰상품사진</th>
 							<th>내용</th>
 							<th>작성자</th>
-							<th>등록일</th>
+							<th>등록일11</th>
 						</tr>
 					</thead>
 					<tbody>
