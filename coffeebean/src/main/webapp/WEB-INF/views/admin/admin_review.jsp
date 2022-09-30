@@ -124,8 +124,8 @@ button {
 							<th>번호</th>
 							<th>제목</th>
 							<th>리뷰상품사진</th>
-							<th>내용</th>
-							<th>작성자dddd</th>
+							<th>내용22222</th>
+							<th>작성자22222</th>
 							<th>등록일11</th>
 						</tr>
 					</thead>
