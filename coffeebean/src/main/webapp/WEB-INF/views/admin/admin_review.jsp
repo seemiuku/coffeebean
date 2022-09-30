@@ -125,11 +125,9 @@ button {
 							<th>제목</th>
 							<th>리뷰상품사진</th>
 							<th>내용</th>
-<<<<<<< HEAD
-							<th>작성자ㅋㅋㅋㅋㅋk</th>
-=======
+
 							<th>작성자kㅜㅜㅜㅜㅜㅜㅜ</th>
->>>>>>> refs/remotes/origin/main
+
 							<th>등록일11</th>
 						</tr>
 					</thead>
